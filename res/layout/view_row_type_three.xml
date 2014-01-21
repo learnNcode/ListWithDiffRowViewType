@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cant_say"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</RadioGroup>

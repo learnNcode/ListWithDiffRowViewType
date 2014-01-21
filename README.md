@@ -4,7 +4,16 @@ ListWithDiffRowViewType
  Demo showing the functionality of getViewTypeCount() and getItemViewType(…)  in list-view.
 
 
-We all know that listview is the most used and conventional way of displaying list  of data in android. Many-a-times we do encounter a scenario where we want to display list item depending on a specific condition for example have a look at the images below.
+We all know that listview is the most used and conventional way of displaying list  of data in android. Many-a-times we do encounter a scenario where we want to display list item depending on a specific condition for example have a look at the image below.
+
+Screenshots
+-----------------------------------
+
+![List View](https://dl.dropboxusercontent.com/u/61919232/learnNcode/ListViewWithDiffRowType/listView.png "List view")
+
+<br>
+
+
 
 
 
@@ -20,9 +29,21 @@ In this project i ' m showing 3 different types of row in a listview:
 
 1. A simple text
 
+ ![View type one](https://dl.dropboxusercontent.com/u/61919232/learnNcode/ListViewWithDiffRowType/row_type_one.png "View type one")
+
+<br>
+
 2. Text with image view
 
+ ![View type two](https://dl.dropboxusercontent.com/u/61919232/learnNcode/ListViewWithDiffRowType/row_type_two.png "View type two")
+
+<br>
+
 3. Poll with three option
+
+ ![View type three](https://dl.dropboxusercontent.com/u/61919232/learnNcode/ListViewWithDiffRowType/row_type_three.png "View type  three")
+
+<br>
 
 so first create 3 different xmls for different row type.
 
